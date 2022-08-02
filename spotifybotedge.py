@@ -5,17 +5,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-
-
-def waitElement(Selector):
-    timeout = 5
-    try:
-        element_present = EC.presence_of_element_located((By.CSS_SELECTOR, Selector))
-        WebDriverWait(driver, timeout).until(element_present)
-    except TimeoutException:
-        print("Timed out waiting for page to load")  
-
-
 # selenium 3
 from selenium import webdriver
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
@@ -25,37 +14,35 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 
 driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+def set_input(selector, username):
+    ele= driver.find_element(By.CSS_SELECTOR, selector)
+    ele.click()
+    ele.send_keys(username)
+    ele.send_keys(Keys.RETURN)
+
+def waitElement(Selector):
+    timeout = 5
+    try:
+        element_present = EC.presence_of_element_located((By.CSS_SELECTOR, Selector))
+        WebDriverWait(driver, timeout).until(element_present)
+    except TimeoutException:
+        print("Timed out waiting for page to load")
+
 username= "tarimtanyeri@gmail.com"
 password= "Abrakadabra12"
-
 url ="https://accounts.spotify.com/tr/login"
 driver.get(url)
-ele= driver.find_element(By.CSS_SELECTOR, "#login-username")
-ele.click()
-ele.send_keys(username)
-ele.send_keys(Keys.RETURN)
-#driver.execute_script(f"arguments[0].setAttribute('value','{username}')", ele)
 
-ele= driver.find_element(By.CSS_SELECTOR, "#login-password")
-#driver.execute_script(f"arguments[0].setAttribute('value','{password}')", ele)
-ele.click()
-ele.send_keys(password)
-ele.send_keys(Keys.RETURN)
-
-
+set_input("#login-username", username)
+set_input("#login-password", password)
 
 waitElement("button[data-testid='web-player-link']")
-video_titles=driver.find_elements(By.CSS_SELECTOR, "button[data-testid='web-player-link']")
-video_titles[0].click()
+driver.find_element(By.CSS_SELECTOR, "button[data-testid='web-player-link']").click()
 
 waitElement(".GlueDropTarget--playlists.GlueDropTarget--folders")
-video_titles=driver.find_elements(By.CSS_SELECTOR, ".GlueDropTarget--playlists.GlueDropTarget--folders")
-video_titles[0].click()
-
-
+driver.find_element(By.CSS_SELECTOR, ".GlueDropTarget--playlists.GlueDropTarget--folders").click()
 
 waitElement("button[data-testid='play-button']")
-video_titles=driver.find_elements(By.CSS_SELECTOR, "button[data-testid='play-button']")
-video_titles[1].click()
+video_titles=driver.find_elements(By.CSS_SELECTOR, "button[data-testid='play-button']")[1].click()
 
-time.sleep(1000) 
+time.sleep(1000)
