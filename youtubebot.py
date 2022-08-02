@@ -13,8 +13,7 @@ if __name__ == "__main__":
 
     # Kullanıcıya ait ilk videoyu aç
     username = "BarışÖzcan"
-    url =f"https://www.youtube.com/c/{username}/videos"
-    bot.open_url(url) # spotify login aç
+    bot.open_url(f"https://www.youtube.com/c/{username}/videos") # spotify login aç
     bot.wait_and_click_element("#video-title") # ilk videoyu aç
 
     time.sleep(1000) # 1000 saniye bekle tarayıcının kapanmaması için
