@@ -1,0 +1,461 @@
+1659440123309	geckodriver	INFO	Listening on 127.0.0.1:60513
+1659440126376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60514" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileiz87MI"
+1659440126970	Marionette	INFO	Marionette enabled
+1659440126980	Marionette	INFO	Listening on port 60523
+WebDriver BiDi listening on ws://localhost:60514
+Read port: 60523
+1659440127165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileiz87MI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60514/devtools/browser/14bd050f-f8b1-476c-9489-a78ede055f77
+1659440132571	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-08-02T11:35:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T11:35:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T11:35:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T11:35:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252Fwatch%253Fv%253DdkBIPJYcTfg&hl=tr&ec=65620 line 2 > eval line 2055 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252Fwatch%253Fv%253DdkBIPJYcTfg&hl=tr&ec=65620 line 2 > eval line 6116 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659440200467	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1659440202425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659440209309	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-02T11:36:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T11:36:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T11:36:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+[2022-08-02T11:36:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+JavaScript error: moz-extension://7e190de3-f838-4ab1-bf23-3e149df3131a/video-wrappers/youtube.js, line 33: uncaught exception: unknown (can't convert to string)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+JavaScript error: moz-extension://7e190de3-f838-4ab1-bf23-3e149df3131a/video-wrappers/youtube.js, line 33: uncaught exception: unknown (can't convert to string)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+JavaScript error: moz-extension://7e190de3-f838-4ab1-bf23-3e149df3131a/video-wrappers/youtube.js, line 33: uncaught exception: unknown (can't convert to string)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+JavaScript error: moz-extension://7e190de3-f838-4ab1-bf23-3e149df3131a/video-wrappers/youtube.js, line 33: uncaught exception: unknown (can't convert to string)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+JavaScript error: moz-extension://7e190de3-f838-4ab1-bf23-3e149df3131a/video-wrappers/youtube.js, line 33: uncaught exception: unknown (can't convert to string)
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 2293: TypeError: this.getWeakVideo() is null
+1659440333421	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 6612 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659440345206	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=TR, line 1: Error: NO
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+JavaScript error: https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/developers/js/devsite_devsite_var_module__tr.js, line 1: TypeError: b.whenReady is not a function
+1659440436699	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1659440438775	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1683 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 4618 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 991 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 6818 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3127 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3027 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 4349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1250 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 2155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 593 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 6957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1438 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 7321 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 7578 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 7557 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 6576 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3131 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3283 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 708 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 2190 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 7764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1186 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659443599490	Marionette	INFO	Stopped listening on port 60523
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 936, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+or when attempting to fetch resource.
+[Parent 21140, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 21140, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1659443402895	geckodriver	INFO	Listening on 127.0.0.1:59216
+1659443408047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59217" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofilezih40U"
+1659443408511	Marionette	INFO	Marionette enabled
+1659443408518	Marionette	INFO	Listening on port 59226
+WebDriver BiDi listening on ws://localhost:59217
+Read port: 59226
+1659443408817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:59217/devtools/browser/049b2f30-cc56-4de5-a4bc-b983199361e3
+1659443413799	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-08-02T12:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 185 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252Fwatch%253Fv%253DdkBIPJYcTfg&hl=tr&ec=65620 line 2 > eval line 2197 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252Fwatch%253Fv%253DdkBIPJYcTfg&hl=tr&ec=65620 line 2 > eval line 732 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659443602167	Marionette	INFO	Stopped listening on port 59226
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659444093150	geckodriver	INFO	Listening on 127.0.0.1:59546
+1659444100174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileHkJBuz"
+1659444100651	Marionette	INFO	Marionette enabled
+1659444100657	Marionette	INFO	Listening on port 59556
+WebDriver BiDi listening on ws://localhost:59547
+Read port: 59556
+1659444100764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:59547/devtools/browser/2a59b272-af45-4f39-9510-3db3af72d724
+1659444106981	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[2022-08-02T12:41:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:41:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:41:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T12:41:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1659444110464	Marionette	INFO	Stopped listening on port 59556
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 21488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1659444153013	geckodriver	INFO	Listening on 127.0.0.1:59597
+1659444156099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59598" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileHFTivb"
+1659444156659	Marionette	INFO	Marionette enabled
+1659444156665	Marionette	INFO	Listening on port 59607
+WebDriver BiDi listening on ws://localhost:59598
+Read port: 59607
+1659444156841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileHFTivb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59598/devtools/browser/a200fafd-e6ab-4858-af32-10e54f3b7de4
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.error: "Unable to find target with innerWindowId:8589934593"
+console.error: "Unable to find target with innerWindowId:8589934593"
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 3382: TypeError: data.frameData.id is null
+console.warn: "Error while destroying front:" "inspector" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934598/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 107))
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934598/inspectorActor4, type getWalker failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\n_getWalker@resource://devtools/client/fronts/inspector.js:90:30\ninitialize@resource://devtools/client/fronts/inspector.js:79:12\n", "resource://devtools/shared/protocol/Front.js", 107))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 107: Error: Connection closed, pending request to server0.conn0.windowGlobal8589934598/inspectorActor4, type getWalker failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:293:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19
+_getWalker@resource://devtools/client/fronts/inspector.js:90:30
+initialize@resource://devtools/client/fronts/inspector.js:79:12
+
+console.error: "Unable to find target with innerWindowId:8589934594"
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934633/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:293:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:49:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:561:49\n", "resource://devtools/shared/protocol/Front.js", 107))
+1659444451544	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1659444452915	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5420 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659444610727	geckodriver	INFO	Listening on 127.0.0.1:51336
+1659444613797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51337" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileHzTsNP"
+1659444614224	Marionette	INFO	Marionette enabled
+1659444614230	Marionette	INFO	Listening on port 51346
+WebDriver BiDi listening on ws://localhost:51337
+Read port: 51346
+1659444614396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileHzTsNP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51337/devtools/browser/0d799a1a-5fe1-4f41-9ac5-3e0c4cfea73b
+1659444777390	Marionette	INFO	Stopped listening on port 51346
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51472" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileIy3vop"
+1659444681670	Marionette	INFO	Marionette enabled
+1659444681676	Marionette	INFO	Listening on port 51481
+WebDriver BiDi listening on ws://localhost:51472
+Read port: 51481
+1659444681897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileIy3vop\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51472/devtools/browser/293ee568-7a3e-4912-8062-e89e5c521fce
+1659444774181	Marionette	INFO	Stopped listening on port 51481
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 4216, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ocal\\Temp\\rust_mozprofilekTb0zF"
+1659444715638	Marionette	INFO	Marionette enabled
+1659444715644	Marionette	INFO	Listening on port 51623
+WebDriver BiDi listening on ws://localhost:51614
+Read port: 51623
+1659444715817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofilekTb0zF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51614/devtools/browser/530cf6f6-5ecb-4828-b13e-bf25f797ce5b
+1659444776151	Marionette	INFO	Stopped listening on port 51623
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659446442514	geckodriver	INFO	Listening on 127.0.0.1:52476
+1659446445599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52477" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileUE83Xh"
+1659446446118	Marionette	INFO	Marionette enabled
+1659446446124	Marionette	INFO	Listening on port 52486
+WebDriver BiDi listening on ws://localhost:52477
+Read port: 52486
+1659446446303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileUE83Xh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52477/devtools/browser/26e22837-447e-40de-8854-80a4ead4ffd6
+1659449839721	Marionette	INFO	Stopped listening on port 52486
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52569" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofilepf5rnU"
+1659446684377	Marionette	INFO	Marionette enabled
+1659446684384	Marionette	INFO	Listening on port 52578
+WebDriver BiDi listening on ws://localhost:52569
+Read port: 52578
+1659446684582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofilepf5rnU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52569/devtools/browser/95a88df2-445b-4bfd-8c29-621abba35511
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1659449841243	Marionette	INFO	Stopped listening on port 52578
+rrors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofile27COpg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52637/devtools/browser/994ff5e9-be10-4acf-a409-f0cc9b4f7bf8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript warning: https://platform.twitter.com/oct.js, line 1: Script terminated by timeout at:
+618/e.documentVisible@https://platform.twitter.com/oct.js:1:46889
+s/</<@https://platform.twitter.com/oct.js:1:37745
+c/</<@https://platform.twitter.com/oct.js:1:36763
+c/<@https://platform.twitter.com/oct.js:1:36868
+8352/i</<@https://platform.twitter.com/oct.js:1:35780
+8352/i<@https://platform.twitter.com/oct.js:1:35525
+s@https://platform.twitter.com/oct.js:1:37514
+8352/e.trackPid@https://platform.twitter.com/oct.js:1:37405
+3257/e.track/</<@https://platform.twitter.com/oct.js:1:41348
+c/</<@https://platform.twitter.com/oct.js:1:40602
+c/<@https://platform.twitter.com/oct.js:1:40707
+a@https://platform.twitter.com/oct.js:1:39421
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: HttpResponseError: 
+1659447011274	Marionette	INFO	Stopped listening on port 52646
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 20612, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1659447039975	geckodriver	INFO	Listening on 127.0.0.1:52898
+1659447043020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileRj87Fw"
+1659447043465	Marionette	INFO	Marionette enabled
+1659447043472	Marionette	INFO	Listening on port 52908
+WebDriver BiDi listening on ws://localhost:52899
+Read port: 52908
+1659447043710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileRj87Fw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52899/devtools/browser/59fbde15-31f7-4a97-aa25-de3e71124214
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+1659447132772	Marionette	INFO	Stopped listening on port 52908
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 22248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 22248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1659447306716	geckodriver	INFO	Listening on 127.0.0.1:53018
+1659447309762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53019" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofiledHYcZo"
+1659447310266	Marionette	INFO	Marionette enabled
+1659447310272	Marionette	INFO	Listening on port 53029
+WebDriver BiDi listening on ws://localhost:53019
+Read port: 53029
+1659447310472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofiledHYcZo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53019/devtools/browser/bbfc2082-5b8c-4b61-b9a0-f2800fa425a2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1659449842359	Marionette	INFO	Stopped listening on port 53029
+[Parent 30116, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Temp\\rust_mozprofileUCMA2H"
+1659447513677	Marionette	INFO	Marionette enabled
+1659447513683	Marionette	INFO	Listening on port 53115
+WebDriver BiDi listening on ws://localhost:53104
+Read port: 53115
+1659447513865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileUCMA2H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53104/devtools/browser/3e14a76b-845f-4540-ae2a-c7f57fb7563b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+1659449843416	Marionette	INFO	Stopped listening on port 53115
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ocal\\Temp\\rust_mozprofileoYpvYD"
+1659447586444	Marionette	INFO	Marionette enabled
+1659447586451	Marionette	INFO	Listening on port 53191
+WebDriver BiDi listening on ws://localhost:53182
+Read port: 53191
+1659447586629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileoYpvYD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53182/devtools/browser/7aa3eaf2-3536-412f-8f5b-ccd67a4fa8f7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: HttpResponseError: 
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1659449844749	Marionette	INFO	Stopped listening on port 53191
+[Parent 28180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+, (void 0)))
+DevTools listening on ws://localhost:53609/devtools/browser/692bb8b6-fa2a-45c9-b14f-57ec81440014
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: HttpResponseError: 
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+JavaScript warning: https://api.fouanalytics.com/s/pp.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5681 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 6955 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 4807 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=TR, line 1: Error: NO
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 7635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1751 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 5234 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1205 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1659449847084	Marionette	INFO	Stopped listening on port 53619
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+	Listening on port 61883
+Read port: 61883
+WebDriver BiDi listening on ws://localhost:61872
+1659448473968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileMaXRAE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61872/devtools/browser/d9d64c63-1774-408d-bcab-9fb64bd50dde
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+1659449848688	Marionette	INFO	Stopped listening on port 61883
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "62100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofile7FaJ2I"
+1659448877985	Marionette	INFO	Marionette enabled
+1659448877991	Marionette	INFO	Listening on port 62110
+WebDriver BiDi listening on ws://localhost:62100
+Read port: 62110
+1659448878189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofile7FaJ2I\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62100/devtools/browser/20f992cb-e220-421a-9657-c237b0f44180
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+1659449850914	Marionette	INFO	Stopped listening on port 62110
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "62318" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileRtXj7v"
+1659449127315	Marionette	INFO	Marionette enabled
+1659449127321	Marionette	INFO	Listening on port 62327
+WebDriver BiDi listening on ws://localhost:62318
+Read port: 62327
+1659449127491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\EMREAY~1\\AppData\\Local\\Temp\\rust_mozprofileRtXj7v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62318/devtools/browser/c50f9f12-1eba-4fcf-852d-750fc2c2faef
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 594"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:594:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 594, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 594: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+console.error: "Unable to find target with innerWindowId:4294967307"
+console.error: "Unable to find target with innerWindowId:4294967307"
+console.error: "Unable to find target with innerWindowId:4294967307"
+console.error: "Unable to find target with innerWindowId:4294967307"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.2b369a54.js, line 1: PlaybackError: No supported keysystem was found.
+console.error: "Unable to find target with innerWindowId:4294967320"
+console.error: "Unable to find target with innerWindowId:4294967320"
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: HttpResponseError: 
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: DUPLICATE_REQUEST_ERROR: DUPLICATE_REQUEST_ERROR: Already sent this request (GET::https://api.spotify.com/v1/me/albums/contains::{"ids":"7pRjDa4x9Nzr3KGXeTSGb1"})
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlaybackError: No supported keysystem was found.
+[2022-08-02T14:19:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T14:19:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T14:19:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-02T14:19:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 3635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 1231 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.spotifycdn.com/cdn/build/web-player/web-player.86bea0c2.js, line 1: PlaybackError: No supported keysystem was found.
