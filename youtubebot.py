@@ -11,9 +11,10 @@ if __name__ == "__main__":
     bot = WebBot(driver)
     # Bot aşamaları
 
-    # Kullanıcıya ait ilk videoyu aç
+    #region Kullanıcıya ait ilk videoyu aç
     username = "BarışÖzcan"
     bot.open_url(f"https://www.youtube.com/c/{username}/videos") # spotify login aç
     bot.wait_and_click_element("#video-title") # ilk videoyu aç
-
+    #endregion Kullanıcıya ait ilk videoyu aç
+    
     time.sleep(1000) # 1000 saniye bekle tarayıcının kapanmaması için
