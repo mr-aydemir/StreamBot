@@ -10,8 +10,11 @@ if __name__ == "__main__":
     driver = webdriver.Edge(EdgeChromiumDriverManager().install())
     bot = WebBot(driver)
     # Bot aşamaları
+
+    # Kullanıcıya ait ilk videoyu aç
     username = "BarışÖzcan"
     url =f"https://www.youtube.com/c/{username}/videos"
     bot.open_url(url) # spotify login aç
     bot.wait_and_click_element("#video-title") # ilk videoyu aç
+
     time.sleep(1000) # 1000 saniye bekle tarayıcının kapanmaması için
