@@ -11,7 +11,8 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 # driver kurulumunu burda bul
 # https://pypi.org/project/webdriver-manager/#use-with-edge
-
+username= "tarimtanyeri@gmail.com"
+password= "Abrakadabra12"
 
 driver = webdriver.Edge(EdgeChromiumDriverManager().install())
 def set_input(selector, username):
@@ -27,9 +28,10 @@ def waitElement(Selector):
         WebDriverWait(driver, timeout).until(element_present)
     except TimeoutException:
         print("Timed out waiting for page to load")
+def clickElement(selector):
+    driver.find_element(By.CSS_SELECTOR, selector).click()
 
-username= "tarimtanyeri@gmail.com"
-password= "Abrakadabra12"
+
 url ="https://accounts.spotify.com/tr/login"
 driver.get(url)
 
@@ -37,12 +39,14 @@ set_input("#login-username", username)
 set_input("#login-password", password)
 
 waitElement("button[data-testid='web-player-link']")
-driver.find_element(By.CSS_SELECTOR, "button[data-testid='web-player-link']").click()
+clickElement("button[data-testid='web-player-link']")
 
 waitElement(".GlueDropTarget--playlists.GlueDropTarget--folders")
-driver.find_element(By.CSS_SELECTOR, ".GlueDropTarget--playlists.GlueDropTarget--folders").click()
+clickElement(".GlueDropTarget--playlists.GlueDropTarget--folders")
 
 waitElement("button[data-testid='play-button']")
-video_titles=driver.find_elements(By.CSS_SELECTOR, "button[data-testid='play-button']")[1].click()
+clickElement(".GlueDropTarget--playlists.GlueDropTarget--folders")
+
+driver.find_elements(By.CSS_SELECTOR, "button[data-testid='play-button']")[1].click()
 
 time.sleep(1000)
