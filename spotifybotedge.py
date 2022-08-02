@@ -17,9 +17,17 @@ password= "Abrakadabra12"
 
 # Gerekli metotların oluşturulması
 
+# selectora sahip tüm elementleri getir
+def getElementList(selector):
+    return driver.find_elements(By.CSS_SELECTOR, selector)
+
+# selectora sahip ilk elementi getir
+def getElement(selector):
+    return driver.find_element(By.CSS_SELECTOR, selector)
+
 # inputun doldurulup devam et denilmesi
-def set_input(selector, username):
-    ele= driver.find_element(By.CSS_SELECTOR, selector)
+def set_input_next(selector, username):
+    ele= getElement(selector)
     ele.click()
     ele.send_keys(username)
     ele.send_keys(Keys.RETURN)
@@ -28,18 +36,14 @@ def set_input(selector, username):
 def waitElement(Selector):
     timeout = 5
     try:
-        element_present = EC.presence_of_element_located((By.CSS_SELECTOR, Selector))
-        WebDriverWait(driver, timeout).until(element_present)
+        WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.CSS_SELECTOR, Selector)))
     except TimeoutException:
         print("Timed out waiting for page to load")
 
 # elemente tıkla
 def clickElement(selector):
-    driver.find_element(By.CSS_SELECTOR, selector).click()
+    getElement(selector).click()
 
-# selectora sahip tüm elementleri getir
-def getElementList(selector):
-    return driver.find_elements(By.CSS_SELECTOR, selector)
 
 # elementi bekle ve tıkla
 def wait_and_click_element(selector):
@@ -52,10 +56,10 @@ def open_url(url):
 
 # Bot aşamaları
 open_url("https://accounts.spotify.com/tr/login") # spotify login aç
-set_input("#login-username", username) # username gir
-set_input("#login-password", password) # password gir
-wait_and_click_element("button[data-testid='web-player-link']") # web player butonuna tıkla
-wait_and_click_element(".GlueDropTarget--playlists.GlueDropTarget--folders") # oluşturmuş olunan ilk listeye tıkla
-getElementList("button[data-testid='play-button']")[1].click() # play butonuna bas
+set_input_next("#login-username", username) # username gir
+set_input_next("#login-password", password) # password gir
+wait_and_click_element("button[data-testid='web-player-link']") # web player butonunun oluşmasını bekle ve tıkla
+wait_and_click_element(".GlueDropTarget--playlists.GlueDropTarget--folders") # oluşturmuş olunan ilk listenin oluşmasını bekle ve tıkla
+wait_and_click_element("div[data-testid='action-bar-row'] button[data-testid='play-button']") # play butonun gelmesini bekle ve tıkla
 
 time.sleep(1000)
