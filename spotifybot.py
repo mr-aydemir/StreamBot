@@ -1,3 +1,4 @@
+import numpy as np
 from WebBot import WebBot
 import time
 import threading
@@ -6,12 +7,7 @@ from data.user import User
 from secure.spotify_users import users
 
 def listen_thread(user: User):
-    from selenium import webdriver
-    from webdriver_manager.microsoft import EdgeChromiumDriverManager
-
-    driver = webdriver.Edge(EdgeChromiumDriverManager().install())
-    bot = WebBot(driver)
-
+    bot = WebBot()
     # region Giriş Yap
     # spotify login aç
     bot.open_url("https://accounts.spotify.com/tr/login")
@@ -37,10 +33,8 @@ def listen_thread(user: User):
 
 
 if __name__ == "__main__":
-    # selenium 3 driver tanımlanması
-    # driver kurulumunu burda bul
-    # https://pypi.org/project/webdriver-manager/#use-with-edge
     threads = list()
+    np.random.shuffle(users)
     for user in users:
         x = threading.Thread(target=listen_thread, args=(user,))
         threads.append(x)
