@@ -3,7 +3,7 @@ import time
 import threading
 
 from data.user import User
-from secure.users import users
+from secure.spotify_users import users
 
 def listen_thread(user: User):
     from selenium import webdriver
