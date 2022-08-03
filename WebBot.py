@@ -30,8 +30,10 @@ class WebBot():
         timeout = 5
         try:
             WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
+            return True
         except TimeoutException:
             print("Timed out waiting for page to load")
+            return False
 
     # elemente tıkla
     def clickElement(self, selector:str):
@@ -40,9 +42,14 @@ class WebBot():
 
     # elementi bekle ve tıkla
     def wait_and_click_element(self, selector:str):
-        self.waitElement(selector)
+        if not self.waitElement(selector):
+            return False
         self.clickElement(selector)
+        return True
 
     # url'yi aç
     def open_url(self, url:str):
         self.driver.get(url)
+
+    def wait(self, seconds):
+        WebDriverWait(self.driver, seconds)
