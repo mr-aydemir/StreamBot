@@ -8,6 +8,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 class WebBot():
     def __init__(self) -> None:
+        #https://pypi.org/project/undetected-chromedriver/
         import undetected_chromedriver.v2 as uc
         self.driver = uc.Chrome(version_main=103)
         """
