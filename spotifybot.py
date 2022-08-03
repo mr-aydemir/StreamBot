@@ -40,7 +40,6 @@ if __name__ == "__main__":
     # selenium 3 driver tanımlanması
     # driver kurulumunu burda bul
     # https://pypi.org/project/webdriver-manager/#use-with-edge
-    users = users
     threads = list()
     for user in users:
         x = threading.Thread(target=listen_thread, args=(user,))
